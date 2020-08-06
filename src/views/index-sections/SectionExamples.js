@@ -9,10 +9,10 @@ import { Button, Container, Row, Col } from "reactstrap";
 function SectionExamples() {
   return (
     <>
-      <div className="section section-dark">
+      <div className='section section-dark'>
         <Container>
-          <Row className="example-page">
-            <Col className="text-center" md="6">
+          <Row className='example-page'>
+            <Col className='text-center' md='12'>
               {/* <a href="examples/landing.html" target="_blank">
                 <img
                   alt="..."
@@ -22,15 +22,14 @@ function SectionExamples() {
                 />
               </a> */}
               <Button
-                className="btn-outline-neutral btn-round"
-                color="default"
-                href="/landing-page"
-                target="_blank"
-              >
-                Landing Page
+                className='btn-outline-neutral btn-round'
+                color='default'
+                href='https://localbitcoins.com/accounts/profile/Kik0/feedback/positive/'
+                target='_blank'>
+                más de 200 comentarios positivos
               </Button>
             </Col>
-            <Col className="text-center" md="6">
+            <Col className='text-center' md='6'>
               {/* <a href="examples/profile.html" target="_blank">
                 <img
                   alt="..."
@@ -39,14 +38,14 @@ function SectionExamples() {
                   style={{ width: "100%" }}
                 />
               </a> */}
-              <Button
+              {/* <Button
                 className="btn-outline-neutral btn-round"
                 color="default"
                 href="/profile-page"
                 target="_blank"
               >
                 Profile Page
-              </Button>
+              </Button> */}
             </Col>
           </Row>
         </Container>

@@ -1,15 +1,8 @@
 import React from "react";
 import {
-  Button,
   Card,
   CardBody,
-  CardFooter,
   CardTitle,
-  Form,
-  Input,
-  InputGroupAddon,
-  InputGroupText,
-  InputGroup,
   Container,
   Row,
   Col,
@@ -33,7 +26,7 @@ import DemoFooter from "components/Footers/DemoFooter.js";
 // import SectionNucleoIcons from "views/index-sections/SectionNucleoIcons.js";
 import SectionDark from "views/index-sections/SectionDark.js";
 // //import SectionLogin from "views/index-sections/SectionLogin.js";
-// import SectionExamples from "views/index-sections/SectionExamples.js";
+import SectionExamples from "views/index-sections/SectionExamples.js";
 import SectionDownload from "views/index-sections/SectionDownload.js";
 import LandingPageHeader from "components/Headers/LandingPageHeader.js";
 
@@ -90,7 +83,7 @@ function Index() {
                 <Card className='card-profile card-plain'>
                   <div className='card-avatar'>
                     <a href='#pablo' onClick={(e) => e.preventDefault()}>
-                      <img alt='...' src={require("assets/img/faces/joe-gardner-2.jpg")} />
+                      <img alt='...' src={require("assets/img/faces/Daniela.jpeg")} />
                     </a>
                   </div>
                   <CardBody>
@@ -101,8 +94,8 @@ function Index() {
                       </div>
                     </a>
                     <p className='card-description text-center'>
-                      Encantada con Payki. Siempre la recomiendo a mis amigas, ellos siempre tienen mejor tasa y la
-                      atención es la mejor. LOS AMO.
+                      Encantada con Payki. Siempre la recomiendo a mis amigas, ellos mantienen la mejor tasa y la
+                      atención es excelente, LOS AMO.
                     </p>
                   </CardBody>
                 </Card>
@@ -111,7 +104,7 @@ function Index() {
                 <Card className='card-profile card-plain'>
                   <div className='card-avatar'>
                     <a href='#pablo' onClick={(e) => e.preventDefault()}>
-                      <img alt='...' src={require("assets/img/faces/erik-lucatero-2.jpg")} />
+                      <img alt='...' src={require("assets/img/faces/emily.jpeg")} />
                     </a>
                   </div>
                   <CardBody>
@@ -131,7 +124,7 @@ function Index() {
             </Row>
           </Container>
         </div>
-        {/* <SectionExamples /> */}
+        <SectionExamples />
         <SectionDownload />
         <DemoFooter />
       </div>

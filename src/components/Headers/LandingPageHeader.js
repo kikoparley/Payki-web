@@ -40,6 +40,7 @@ function LandingPageHeader() {
               TASA PAYKI <PostList />
             </h2>
             <h3 className='presentation-subtitle text-center'>Giros disponibles en 1 hora o menos.</h3>
+            <p className='presentation-subtitle text-center'>Más de 3000 transacciones exitosas</p>
             <br />
             <Button
               href='https://play.google.com/store/apps/details?id=io.ionic.PaykiApp&hl=es_419'
@@ -51,7 +52,7 @@ function LandingPageHeader() {
               Descargar para Android
             </Button>
 
-            <Button
+            {/* <Button
               className='btn-round'
               color='neutral'
               type='button'
@@ -62,7 +63,7 @@ function LandingPageHeader() {
               title='Escribenos un whatsapp'>
               <i className='fa fa-whatsapp' />
               <p className='d-lg-none'></p> Whatsapp
-            </Button>
+            </Button> */}
           </div>
         </Container>
       </div>
