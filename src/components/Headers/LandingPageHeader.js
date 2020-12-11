@@ -43,27 +43,27 @@ function LandingPageHeader() {
             <p className='presentation-subtitle text-center'>Más de 3000 transacciones exitosas</p>
             <br />
             <Button
-              href='https://play.google.com/store/apps/details?id=io.ionic.PaykiApp&hl=es_419'
+              href='https://app.payki.co'
               className='btn-round mr-1'
               color='neutral'
               target='_blank'
               outline>
-              <i className='fa fa-android' />
-              Descargar para Android
+              <i className='fa fa-sign-in' />
+              INICIAR SESIÓN
             </Button>
 
-            {/* <Button
+            <Button
               className='btn-round'
               color='neutral'
               type='button'
               outline
               data-placement='bottom'
-              href='https://wa.me/573014267451'
+              href='https://app.payki.co/calc'
               target='_blank'
               title='Escribenos un whatsapp'>
-              <i className='fa fa-whatsapp' />
-              <p className='d-lg-none'></p> Whatsapp
-            </Button> */}
+              <i className='fa fa-calculator' />
+              <p className='d-lg-none'></p> CALCULADORA DE DIVISAS
+            </Button>
           </div>
         </Container>
       </div>
